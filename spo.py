@@ -1,4 +1,4 @@
-python
+
 import os
 import re
 import json
@@ -343,7 +343,7 @@ def load_processed_ids() -> set:
         return set()
 
     try:
-        with open(PROCESSED_FILE, "r", encoding="utf-8") as f:
+        with open(PROCESSED_FILE, "r", encoding="uts f:
             data = json.load(f)
             return set(data)
     except Exception:
